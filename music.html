@@ -14,34 +14,88 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="style5.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    </head>
 
 <body>
 
 
     <header>
-        <nav>
-            <div class="topnav" id="myTopnav">
-                <a href="index.html">BIOGRAPHY</a>
-                <a href="gallery.html">GALLERY</a>
-                <a href="music.html">DISCOGRAPHY</a>
-                <a href="social.html">SOCIAL CONTACTS</a>
-                <a href="about_us.html">ABOUT US</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Kairosh</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="main.html">bio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="music.html">discography</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="social.html">social network</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" " href="about_us.html">about us</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
             </div>
-        </nav>
-        <img src="" class="icon" onclick="togglemenu()">
+          </nav>
 
     </header>
-    <div class="title">
-        Discography
+
+
+    
+    <div class="row">
+        <div class="col-md-12">
+            <div class="title">
+                Discography
+            </div>
+        </div>
     </div>
-    <div class="name">
-        My Universe (ft. Заңғар Нұртас)
-    </div>
-    <div class="content">
-        <div class="text">
-            <h1 class="text__lyrics head">Lyrics</h1>
-            <div class="text__text">
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+              
+    <div class="row">
+        <div class="col-md-12">
+            <div class="name">
+                My Universe (ft. Заңғар Нұртас)
+            </div>
+        </div>
+    </div>    
+    </a>
+            </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse in">
+            <div class="panel-body">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="text">
+                <h1 class="text__lyrics head">Lyrics</h1>
+                <div class="text__text">
                 Көзіңде күліп күн <br>
                 Кеудемді жылыттың <br>
                 Қылықтым, сен қылықтым <br>
@@ -91,20 +145,39 @@
                 Not little, and through the marsh,<br>
                 I am sick of siding, everything\'s right,<br>
                 \'Cause you are my universe!<br><br>
+                </div>
             </div>
         </div>
-        <div class="video">
-            <h1 class="video__mv head">MV</h1>
-            <video width="100%" controls class="video__frame">
-                <source src="v10.mp4" type="video/mp4">
-            </video>
+        <div class="col-md-6">
+            <div class="video">
+                <h1 class="video__mv head">MV</h1>
+                <video width="100%" controls class="video__frame">
+                    <source src="v10.mp4" type="video/mp4">
+                </video>
+            </div>
         </div>
     </div>
+          </div>
+        </div>
 
+        <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+<div class="row">
+    <div class="col-md-12">
     <div class="name">
         Сен мені түсінбедің (ft. Жанар Дугалова)
     </div>
-    <div class="content">
+    </div>
+</div>
+</a>
+</h4>
+</div>
+<div id="collapse2" class="panel-collapse collapse">
+<div class="panel-body">
+    <div class="row">
+        <div class="col-md-6">
         <div class="text">
             <h1 class="text__lyrics head">Lyrics</h1>
             <div class="text__text">
@@ -142,6 +215,8 @@
                 СЕН МЕНІ ТҮСІНБЕДІҢ<br><br>
             </div>
         </div>
+    </div>
+        <div class="col-md-6">
         <div class="video">
             <h1 class="video__mv head">MV</h1>
             <video width="100%" controls class="video__frame">
@@ -149,13 +224,29 @@
             </video>
         </div>
     </div>
-
-
-
-    <div class="name">
-        Ауырмайды жүрек
     </div>
-    <div class="content">
+</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="name">
+                Ауырмайды жүрек
+            </div>
+        </div>
+    </div>
+</a>
+</h4>
+</div>
+<div id="collapse3" class="panel-collapse collapse">
+<div class="panel-body">
+    <div class="row">
+        <div class="col-md-6">
         <div class="text">
             <h1 class="text__lyrics head">Lyrics</h1>
             <div class="text__text">
@@ -185,6 +276,8 @@
                 Әрбір сөзің батқан қорғасын.<br><br>
             </div>
         </div>
+    </div>
+    <div class="col-md-6">
         <div class="video">
             <h1 class="video__mv head">MV</h1>
             <video width="100%" controls class="video__frame">
@@ -192,11 +285,30 @@
             </video>
         </div>
     </div>
-
-    <div class="name">
-        Ол сен емес
     </div>
-    <div class="content">
+</div>
+</div>
+</div>
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="name">
+                Ол сен емес
+            </div>
+        </div>
+    </div>
+</a>
+</h4>
+</div>
+<div id="collapse4" class="panel-collapse collapse">
+<div class="panel-body">
+    <div class="row">
+        <div class="col-md-6">
         <div class="text">
             <h1 class="text__lyrics head">Lyrics</h1>
             <div class="text__text">
@@ -234,6 +346,8 @@
                 Кешір жаным, сен мені кеш. (х3)<br><br>
             </div>
         </div>
+    </div>
+    <div class="col-md-6">
         <div class="video">
             <h1 class="video__mv head">MV</h1>
             <video width="100%" controls class="video__frame">
@@ -241,10 +355,29 @@
             </video>
         </div>
     </div>
-    <div class="name">
-        Алматы түні
     </div>
-    <div class="content">
+</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="name">
+                Алматы түні
+            </div>
+        </div>
+    </div>
+</a>
+</h4>
+</div>
+<div id="collapse5" class="panel-collapse collapse">
+<div class="panel-body">
+    <div class="row">
+        <div class="col-md-6">
         <div class="text">
             <h1 class="text__lyrics head">Lyrics</h1>
             <div class="text__text">
@@ -274,6 +407,8 @@
                 Уйкымды урлап сен алатындай.<br><br>
             </div>
         </div>
+    </div>
+    <div class="col-md-6">
         <div class="video">
             <h1 class="video__mv head">MV</h1>
             <video width="100%" controls class="video__frame">
@@ -281,22 +416,37 @@
             </video>
         </div>
     </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="recs">
-        <div class="recs__name"> New Music Videos!!! </div>
-        <div class="videorecs">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="recs__name"> New Music Videos!!! </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
             <div class="vids"> 
                 <video width="100%" controls class="video__size">
                 <source src="zhaigana.mp4" type="video/mp4">
                 </video>
                 <h1 class="video__name">Жай ғана</h1>
             </div>
+        </div>
+        <div class="col-md-4">
             <div class="vids"> 
                 <video width="100%" controls class="video__size">
                 <source src="karyndas.mp4" type="video/mp4">
                 </video>
                 <h1 class="video__name">Эх, қарындас</h1>
             </div>
+        </div>
+
+        <div class="col-md-4">
             <div class="vids"> 
                 <video width="100%" controls class="video__size">
                 <source src="maralym.mp4" type="video/mp4">
@@ -304,9 +454,12 @@
                 <h1 class="video__name">Маралым</h1>
             </div>
         </div>
-    
+        </div>
     </div>
+
     <footer>
+        <div class="row">
+            <div class="col-md-12">
         <div class="foot">
             <center> Our contacts:</center>
         </div>
@@ -324,21 +477,9 @@
                 </tr>
             </table>
         </center>
+    </div>
+    </div>
     </footer>
-
-    <script>
-        let myTopnav = document.getElementById("myTopnav");
-        myTopnav.style.maxHeight = "0px";
-
-        function togglemenu() {
-            if (myTopnav.style.maxHeight == "0px") {
-                myTopnav.style.maxHeight = "130px";
-            }
-            else {
-                myTopnav.style.maxHeight = "0px";
-            }
-        }
-    </script>
 
 </body>
 
