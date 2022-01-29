@@ -32,30 +32,48 @@ body{
   background-color: #7663dd59;
 }
 */
+.logo{
+  font-size: 20px;
+}
+
 .title {
     font-size: 50px;
     text-align: center;
     font-family: 'Playfair Display';
     font-weight: 700;
     color: rgb(26, 26, 80);
-    text-shadow: 0px 4px 5px rgb(85, 85, 85);
+    margin-bottom: 25px;
 }
 
 .video__frame{
   padding: 15px;
 }
 
-.name {
-    margin-top: 40px;
-    margin-bottom: 50px;
-    color: rgb(67, 48, 172);
-    text-decoration: overline;
-    font-size: 35px;
-    text-align: center;
-    font-weight: 700;
-    font-family: 'Playfair Display SC';
-    text-shadow: 0px 3px 4px rgb(85, 85, 85);
+.panel-default > .panel-heading > .panel-title:not(.collapsed){
+  color: #6A5ACD;
+  background-color: #e6dbec;
+  border-color: #cdc3d3;
 }
+
+.name {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Arial';
+}
+
+.panel-title{
+  display: flex;
+  justify-content: center;
+}
+
+.panel:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #6A5ACD
+}
+
 
 .text{
     font-size: 20px;
@@ -74,10 +92,13 @@ body{
 
 .recs__name{
   width:100%;
+  padding:10px;
+  margin-top: 30px;
   text-align: center;
   font-size: 35px;
   font-weight: 700;
   background-color: #6A5ACD;
+  color: rgb(235, 235, 235);
 }
 
 .videorecs{
@@ -121,17 +142,27 @@ body{
 
 table, th, td {
     border: 1px solid rgb(255, 255, 255);
-    color: rgb(170, 170, 170);
-  }
-  .foot{
+    color: rgb(231, 228, 228);
+}
+
+table th {
+  padding:10px;
+  text-align: center;
+}
+table tr td{
+  padding:10px;
+  text-align: center;
+}
+
+.foot{
     font-size: 15px;
-    color: rgb(170, 170, 170);
-  }
+    color: rgb(255, 255, 255);
+}
   footer{
     max-width: 100%;
     padding: 16px;
     font-size: 15px;
-    background-color: #292929;
+    background-color: #493f8a;
 
   }
 
