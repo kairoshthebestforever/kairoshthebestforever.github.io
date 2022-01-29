@@ -22,6 +22,16 @@ body{
   background-color: #d3cece;
 }
 
+
+
+/*.panel, .panel-heading{
+  background-color: #877cbe71;
+}
+
+.panel-body{
+  background-color: #7663dd59;
+}
+*/
 .title {
     font-size: 50px;
     text-align: center;
@@ -103,6 +113,11 @@ body{
   font-weight: 700;
 }
 
+@media screen and (max-width:480px) {
+  .video__size{
+    width: 330px;
+  }
+}
 
 table, th, td {
     border: 1px solid rgb(255, 255, 255);
