@@ -22,16 +22,6 @@ body{
   background-color: #d3cece;
 }
 
-
-
-/*.panel, .panel-heading{
-  background-color: #877cbe71;
-}
-
-.panel-body{
-  background-color: #7663dd59;
-}
-*/
 .logo{
   font-size: 20px;
 }
@@ -97,7 +87,7 @@ body{
   text-align: center;
   font-size: 35px;
   font-weight: 700;
-  background-color: #6A5ACD;
+  background-color: #2d2857b7;
   color: rgb(235, 235, 235);
 }
 
@@ -111,14 +101,15 @@ body{
 
 .vids{
   padding: 30px;
+  
 }
 
 .video__size{
-  width: 400px;
+  width: 430px;
 }
 
 .video__size:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
   box-shadow: 10px 10px 40px #000;
   transition: all 1s ease;
 }
@@ -162,7 +153,7 @@ table tr td{
     max-width: 100%;
     padding: 16px;
     font-size: 15px;
-    background-color: #493f8a;
+    background-color: #29282c;
 
   }
 
