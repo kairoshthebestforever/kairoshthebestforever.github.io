@@ -6,23 +6,7 @@
 html, body {width: auto!important; overflow-x: hidden!important}
 body{max-width: 100%;}
 
-  .nav-item{
-    font-size: 20px;
-  }
-
-@media (max-width: 480px){
-    .video{
-      width: auto;
-      max-width: 480px;
-    }
-  }
-
-body{
-  max-width: 100%;
-  background-color: #d3cece;
-}
-
-.logo{
+.navbar{
   font-size: 20px;
 }
 
@@ -31,7 +15,7 @@ body{
     text-align: center;
     font-family: 'Playfair Display';
     font-weight: 700;
-    color: rgb(26, 26, 80);
+    color: rgb(235, 235, 235);
     margin-bottom: 25px;
 }
 
@@ -40,9 +24,13 @@ body{
 }
 
 .panel-default > .panel-heading > .panel-title:not(.collapsed){
-  color: #6A5ACD;
-  background-color: #e6dbec;
-  border-color: #cdc3d3;
+  color: #000000;
+  background-color: #572f1d80;
+  border-color: #000000;
+}
+
+.panel-body{
+  background-color: #572f1d2d;
 }
 
 .name {
@@ -61,7 +49,7 @@ body{
 
 .panel:hover{
   transform: scale(1.1);
-  box-shadow: 0 0 10px #6A5ACD
+  box-shadow: 0 0 10px #7a4a36b7
 }
 
 
@@ -87,7 +75,7 @@ body{
   text-align: center;
   font-size: 35px;
   font-weight: 700;
-  background-color: #2d2857b7;
+  background-color: #8d553b3d;
   color: rgb(235, 235, 235);
 }
 
@@ -110,12 +98,14 @@ body{
 
 .video__size:hover{
   transform: scale(1.1);
-  box-shadow: 10px 10px 40px #000;
+  box-shadow: 10px 10px 40px #000000b7;
   transition: all 1s ease;
 }
 .video__name{
   text-align: center;
   margin-top: 20px;
+  color: #b9b9b9;
+  font-weight: 700;
 }
 
 .foot{
@@ -129,33 +119,18 @@ body{
   .video__size{
     width: 330px;
   }
-}
-
-table, th, td {
-    border: 1px solid rgb(255, 255, 255);
-    color: rgb(231, 228, 228);
-}
-
-table th {
-  padding:10px;
-  text-align: center;
-}
-
-table tr td{
-  padding:10px;
-  text-align: center;
-}
-
-.foot{
-  font-size: 15px;
-  color: rgb(255, 255, 255);
+  .video{
+    width: auto;
+    max-width: 480px;
+  }
 }
 
 footer{   
   max-width: 100%;
   padding: 16px;
-  font-size: 15px;
-  background-color: #29282c;
-}
+  font-size: 25px;
+  background-color: #575454;
+
+ }
 
   
