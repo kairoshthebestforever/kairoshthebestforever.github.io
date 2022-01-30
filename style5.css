@@ -10,7 +10,7 @@ body{max-width: 100%;}
     font-size: 20px;
   }
 
-  @media (max-width: 480px){
+@media (max-width: 480px){
     .video{
       width: auto;
       max-width: 480px;
@@ -140,21 +140,22 @@ table th {
   padding:10px;
   text-align: center;
 }
+
 table tr td{
   padding:10px;
   text-align: center;
 }
 
 .foot{
-    font-size: 15px;
-    color: rgb(255, 255, 255);
+  font-size: 15px;
+  color: rgb(255, 255, 255);
 }
-  footer{
-    max-width: 100%;
-    padding: 16px;
-    font-size: 15px;
-    background-color: #29282c;
 
-  }
+footer{   
+  max-width: 100%;
+  padding: 16px;
+  font-size: 15px;
+  background-color: #29282c;
+}
 
   
