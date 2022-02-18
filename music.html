@@ -14,6 +14,8 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="style5.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.min.css" integrity="sha512-ykRBEJhyZ+B/BIJcBuOyUoIxh0OfdICfHPnPfBy7eIiyJv536ojTCsgX8aqrLQ9VJZHGz4tvYyzOM0lkgmQZGw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -31,7 +33,8 @@
 </head>
 
 <body style="background-color:#313131">
-    
+
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
@@ -153,6 +156,9 @@
                                     <source src="v10.mp4" type="video/mp4">
                                 </video>
                             </div>
+                            <button class="like" id="likee">
+                                <span class="icon"><i class="fa-regular fa-heart"></i></span>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -215,6 +221,9 @@
                                     <video width="100%" controls class="video__frame">
                                         <source src="videoFour.mp4" type="video/mp4">
                                     </video>
+                                    <button class="like" id="likee">
+                                        <span class="icon"><i class="fa-regular fa-heart"></i></span>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -269,6 +278,9 @@
                                     <video width="100%" controls class="video__frame">
                                         <source src="videoOne.mp4" type="video/mp4">
                                     </video>
+                                    <button class="like" id="likee">
+                                        <span class="icon"><i class="fa-regular fa-heart"></i></span>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -331,6 +343,9 @@
                                     <video width="100%" controls class="video__frame">
                                         <source src="videoTwo.mp4" type="video/mp4">
                                     </video>
+                                    <button class="like" id="likee">
+                                        <span class="icon"><i class="fa-regular fa-heart"></i></span>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -385,6 +400,9 @@
                                     <video width="100%" controls class="video__frame">
                                         <source src="videoThree.mp4" type="video/mp4">
                                     </video>
+                                    <button class="like" id="likee">
+                                        <span class="icon"><i class="fa-regular fa-heart"></i></span>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -392,10 +410,9 @@
                 </div>
         </div>
     </div>
-    
         <div class="row">
             <div class="col-md-12">
-                <div class="recs__name"> New Music Videos!!!</div>
+                <div class="recs__name"><span onclick="playSound()" class="recs__span"> New Music Videos!!!</span></div>
             </div>
         </div>
         <div class="row">
@@ -439,6 +456,9 @@
     </footer>
 
     <script src="js/script.js">    </script>
+
+    <audio id="aud" src="shashlyg.mp3"></audio>
+
 </body>
 
 </html>

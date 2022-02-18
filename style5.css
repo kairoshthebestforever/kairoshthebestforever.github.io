@@ -115,6 +115,13 @@ body{max-width: 100%;}
   font-weight: 700;
 }
 
+.like{
+  font-size: 50px;
+  background-color: transparent;
+  border: none;
+  padding-left: 300px;
+}
+
 @media screen and (max-width:480px) {
   .video__size{
     width: 330px;
