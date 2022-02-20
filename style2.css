@@ -3,7 +3,7 @@ img{
 }
 
 .navbar {
-  font-family: "Gill Sans MT";
+  font-family: "Playfair Display";
   font-size:22px;
   position: center;
   background-color: #3f3f3f;
@@ -12,6 +12,8 @@ img{
 
 .gallery{
   padding: 80px 0;
+  font-family: "Arial";
+
 }
 .My-container{
   margin-left:50px;
