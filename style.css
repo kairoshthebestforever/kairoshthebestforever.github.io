@@ -1,9 +1,21 @@
-h2{
-   font-family: fangsong;
-   color: antiquewhite;
+#result{
+color: rgb(82, 78, 78);
+}
+#result1{
+  color: rgb(82, 78, 78);
+  }
+#qairat{
+  position: relative;
+  cursor: pointer;
+}
+#top{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
 }
 *{
   font-size: 20px;
+  font-family: aria;
 }
 p,li,ul{
   color: antiquewhite;
@@ -11,18 +23,15 @@ p,li,ul{
 @media screen {
   img{
     max-width: 100%;
-  }
-}
-@media screen and(max-width:768px){
-  img{
-    max-width: 100%;
+    height: auto;
   }
 }
    .layer5{
     background-color: #575454;
     width: 100%; 
     float: center;
-
+    font-family :Playfair Display;
+    font-size: 50px;
    }
    footer{
     position:relative;

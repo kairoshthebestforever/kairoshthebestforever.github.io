@@ -1,6 +1,7 @@
-h1,h2{
-  font-family: fangsong;
-  color: antiquewhite;
+#top{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
 }
 .class{
   position:relative;
@@ -9,7 +10,8 @@ h1,h2{
   background-color: #2b2828;
 }
 *{
- font-size: 20px;
+  font-size: 20px;
+  font-family: aria;
 }
 p,li,ul{
  color: antiquewhite;
@@ -30,7 +32,8 @@ p,li,ul{
    background-color: #575454;
    width: 100%; 
    float: center;
-
+   font-family :Playfair Display;
+   font-size: 50px;
   }
   footer{
    position:relative;
