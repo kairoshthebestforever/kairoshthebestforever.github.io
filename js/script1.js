@@ -36,9 +36,12 @@ document.querySelectorAll('.like').forEach(likeBtn => {
     })
 })
 
-function playSound(){
-    const sound = document.getElementById("aud");
-    sound.play();
+document.onkeydown = function(event){
+    console.log(event);
+    if (event.shiftKey) {
+        const sound = document.getElementById("aud");
+        sound.play();
+    }
 }
 
 // toTop click
